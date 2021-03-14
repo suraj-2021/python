@@ -1,0 +1,10 @@
+def _sum(arr):
+ sum=0
+ for i in arr:
+  sum = sum + i
+ return (sum)
+arr = []
+arr = [5,7,9,66,11]
+ans = _sum(arr)
+
+print "the answer is,",ans
